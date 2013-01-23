@@ -1,7 +1,7 @@
 require_relative "../array.rb"
 
-describe Array do
-	let (:a1) { Array.new([1, 2, 3, 4]) }
+describe MyArray do
+	let(:a1) { MyArray.new([1, 2, 3, 4]) }
 
 	context "#monkey_patched?" do
 		it "uses the monkey_patched version of the Array class" do
