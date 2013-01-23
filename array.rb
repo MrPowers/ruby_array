@@ -86,35 +86,3 @@ class MyArray < Array
 		value
 	end
 end
-
-# a1 = [1, 2, 3, 4]
-# p a1.monkey_patched? == true
-
-# p a1.any?{ |x| x == 50 } == false
-
-# a2 = []
-# a1.each{ |x| a2.push(x * 2) }
-# p a2 == [2, 4, 6, 8]
-
-# p a1.map{ |x| x * 2 } == [2, 4, 6, 8]
-# p a1 == [1, 2, 3, 4]
-
-# p [1, nil, nil, 6, nil].compact == [1, 6]
-
-# a3 = [1, 3, 5, 9]
-# p a3.count{|x| x} == 4
-
-# p a3.count{ |x| x < 5 } == 2
-
-# a4 = [1, 2, 3] 
-# p a4.map!{ |x| x * 2} == [2, 4, 6]
-# p a4 == [2, 4, 6]
-
-# a5 = [6, 7, 8, 9]
-# p a5.reverse == [9, 8, 7, 6]
-
-# p a5.select { |x| x.even? } == [6, 8]
-
-# p a5.shift == 6
-# p a5 == [7, 8, 9]
-
